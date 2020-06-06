@@ -1,0 +1,7 @@
+/node_modules
+.env
+*/.idea
+.DS_Store
+.idea
+public/.htaccess
+public/robots.txt

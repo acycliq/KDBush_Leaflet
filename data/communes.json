@@ -1,0 +1,82 @@
+{
+  "data": [
+    {
+      "label": "Ozan",
+      "id": "1284",
+      "longitude": 4.91667,
+      "latitude": 46.3833,
+      "avancement": 23
+    },
+    {
+      "label": "Cormoranche-sur-Saône",
+      "id": "1123",
+      "longitude": 4.83333,
+      "latitude": 46.2333,
+      "avancement": 84
+    },
+    {
+      "label": "Plagne",
+      "id": "1298",
+      "longitude": 5.73333,
+      "latitude": 46.1833,
+      "avancement": 21
+    },
+    {
+      "label": "Tossiat",
+      "id": "1422",
+      "longitude": 5.31667,
+      "latitude": 46.1333,
+      "avancement": 23
+    },
+    {
+      "label": "Pouillat",
+      "id": "1309",
+      "longitude": 5.43333,
+      "latitude": 46.3333,
+      "avancement": 41
+    },
+    {
+      "label": "Torcieu",
+      "id": "1421",
+      "longitude": 5.4,
+      "latitude": 45.9167,
+      "avancement": 8
+    },
+    {
+      "label": "Replonges",
+      "id": "1320",
+      "longitude": 4.88333,
+      "latitude": 46.3,
+      "avancement": 47
+    },
+    {
+      "label": "Corcelles",
+      "id": "1119",
+      "longitude": 5.58333,
+      "latitude": 46.0333,
+      "avancement": 71
+    },
+    {
+      "label": "Péron",
+      "id": "1288",
+      "longitude": 5.93333,
+      "latitude": 46.2,
+      "avancement": 82
+    },
+    {
+      "label": "Relevant",
+      "id": "1319",
+      "longitude": 4.95,
+      "latitude": 46.0833,
+      "avancement": 13
+    },
+    {
+      "label": "Chaveyriat",
+      "id": "1096",
+      "longitude": 5.06667,
+      "latitude": 46.1833,
+      "avancement": 7
+    }
+  ]
+}
+

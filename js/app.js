@@ -210,13 +210,27 @@ $(document).ready(function () {
                         } else {
                             myHightlight = L.geoJSON(p, {
                                 pointToLayer: function (feature, latlng) {
-                                    return L.circleMarker(latlng, {});
+                                    return L.circleMarker(latlng, highlightStyle(feature));
                                 },
                                 interactive: false,
                             });
                             myHightlight.addTo(map);
                             lastVisited = p
                         }
+                    }
+
+                    function highlightStyle(feature) {
+                        return {
+                            // fillColor: "#FFCE00",
+                            color: "#FFCE00",
+                            // weight: 1,
+                            // opacity: 1,
+                            // fillOpacity: 0.5
+                        };
+                    }
+
+                    function getColor(feature){
+
                     }
 
                     renderer.render(container);

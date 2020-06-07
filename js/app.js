@@ -11,7 +11,7 @@ $(document).ready(function () {
     var url = 'data/geojson.json';
     var points;
     var index;
-    var myHightlight;
+    var myHighlight;
     var lastVisited;
     var targetScale;
 
@@ -197,24 +197,24 @@ $(document).ready(function () {
                     }
 
                     function removeHighlight() {
-                        if (map.hasLayer(myHightlight)) {
-                            map.removeLayer(myHightlight)
+                        if (map.hasLayer(myHighlight)) {
+                            map.removeLayer(myHighlight)
+                            console.log('Highlight removed')
                         }
                         lastVisited = null;
-                        console.log('Hightlight removed')
                     }
 
                     function highlightPoint(p) {
                         if (lastVisited && turf.booleanEqual(p, lastVisited)) {
                             console.log('do nothing')
                         } else {
-                            myHightlight = L.geoJSON(p, {
+                            myHighlight = L.geoJSON(p, {
                                 pointToLayer: function (feature, latlng) {
                                     return L.circleMarker(latlng, highlightStyle(feature));
                                 },
                                 interactive: false,
                             });
-                            myHightlight.addTo(map);
+                            myHighlight.addTo(map);
                             lastVisited = p
                         }
                     }

@@ -175,7 +175,7 @@ $(document).ready(function () {
                                 var pxDist = calcDist(mouseCursor, toPoint);
                                 console.log('Distance is: ' + dist);
                                 console.log('pixel distance is: ' + calcDist(mouseCursor, toPoint));
-                                if (pxDist < 24/Math.sqrt(2) ) { // <=== That a wild guess! Not sure if it is the general guess (probably not).
+                                if (pxDist < 24/Math.sqrt(2) ) { // <=== That a wild guess! Not sure if it is the general rule (probably not).
                                     // Your png marker is 48x48 hence the 24. For the square root I dont have an explanation, it was more by gut feeling.
                                     // It looks ok-ish here but probably it is by some coincidence that it works.
                                     highlightPoint(toPoint)
